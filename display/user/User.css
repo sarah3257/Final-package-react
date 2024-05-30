@@ -1,0 +1,13 @@
+.user-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr); /* מחלק את השורה ל-3 עמודות */
+    gap: 20px; /* רווח בין המשתמשים */
+    margin: 20px;
+}
+
+.user {
+    border: 1px solid #ccc;
+    padding: 10px;
+    border-radius: 5px;
+    text-align: center;
+}
